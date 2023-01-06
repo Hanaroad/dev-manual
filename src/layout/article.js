@@ -21,16 +21,32 @@ function Article() {
   };
   const onReset = () => {
     // setText('');
+    setInputs({
+      name: '',
+      age: '',
+    });
   };
 
   return (
     <>
       <article>
-        <h2>input</h2>
-        <input onChange={onChange} value={text}></input>
+        <div>
+          <h1>값: </h1>
+          {name} ({age})
+        </div>
+        <input
+          name="name"
+          placeholder="이름"
+          onChange={onChange}
+          value={name}
+        ></input>
+        <input
+          name="age"
+          placeholder="나이"
+          onChange={onChange}
+          value={age}
+        ></input>
         <button onClick={onReset}>초기화</button>
-        <input type="text"></input>
-        <input type="text"></input>
       </article>
     </>
   );

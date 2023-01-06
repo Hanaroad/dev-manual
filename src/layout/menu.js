@@ -1,4 +1,4 @@
-import "./menu.css";
+import './menu.css';
 
 const Menu = () => {
   return (
@@ -28,7 +28,7 @@ const Menu = () => {
             <a href="#none">PHP</a>
             <ul className="side-sub">
               <li>
-                <a href="#none">히히</a>
+                <a href="#none">2</a>
               </li>
             </ul>
           </li>
@@ -36,15 +36,15 @@ const Menu = () => {
             <a href="#none">Python</a>
             <ul className="side-sub">
               <li>
-                <a href="#none">히히</a>
+                <a href="#none">3</a>
               </li>
             </ul>
           </li>
           <li className="side-main">
-            <a href="#none">Custom</a>
+            <a href="#none">Vue</a>
             <ul className="side-sub">
               <li>
-                <a href="#none">히히</a>
+                <a href="#none">4</a>
               </li>
             </ul>
           </li>

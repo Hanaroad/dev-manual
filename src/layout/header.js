@@ -1,4 +1,4 @@
-import "./header.css";
+import './header.css';
 
 const Header = () => {
   return (
@@ -6,13 +6,13 @@ const Header = () => {
       <header
         style={{
           backgroundImage:
-            "url(https://docs.popbill.com/static/img/bg/header_bg.jpg)",
+            'url(https://docs.popbill.com/static/img/bg/header_bg.jpg)',
         }}
       >
         <a href="#none">
           <img
             className="main-logo"
-            src={process.env.PUBLIC_URL + "/img/main-logo.png"}
+            src={process.env.PUBLIC_URL + '/img/main-logo.png'}
             alt=""
           />
         </a>
@@ -87,7 +87,7 @@ const Header = () => {
               </ul>
             </li>
             <li className="main">
-              <a href="#none">Custom</a>
+              <a href="#none">Vue</a>
               <ul className="sub">
                 <li>
                   <a href="#none">서브메뉴 1</a>
